@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* LOGO SPACE */ 
+.box-logo {
+    width: 100%;
+    background-color: rgb(250, 250, 250); 
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 80px; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+} 
+.text-logo {
+    color: rgb(0, 0, 0); 
+} 
+/* MENU */
+.menu {
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    display: flex;   
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+} 
+.text-menu{
+    color: rgb(255, 255, 255); 
+    font-weight: 600;
+} 
+.link-menu{
+    text-decoration: none;
+}
+.item {
+    margin-left: 5px;
+    background-color: rgb(245, 0, 0); 
+    padding: 20px;  
+    border: 1px solid rgb(230, 230, 230); 
+    border-radius: 5px;
+}    
+
+.item:hover {
+    background-color: rgb(212, 1, 1); 
+    transform: translateY(-5px);
+}
+
+
+    
