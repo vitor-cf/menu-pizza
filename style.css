@@ -14,7 +14,7 @@ body {
 .text-logo {
     color: rgb(0, 0, 0); 
 } 
-/* MENU */
+/* MENU */ 
 .menu {
     background-color: rgb(252, 252, 252);
     width: 100%;
@@ -39,7 +39,51 @@ body {
 .item:hover {
     background-color: rgb(212, 1, 1); 
     transform: translateY(-5px);
+} 
+.titulo{  
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    display: flex; 
+    align-items: center;
+    margin-top: 10px; 
+    border-bottom: 3px solid rgb(255, 20, 20); 
+} 
+    
+    
+.promocoes{
+    font-size: 20px; 
+    font-weight: 600;
 }
+.box { 
+    width: 100%; 
+    display: flex;
+    flex-wrap:nowrap;
+} 
+    
+.box-pizza {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;  
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    
+} 
+span {
+    color: grey;
+    font-weight: 500;
+    margin-left: 10px; 
+    margin-top: 30px;
+}
+img {
+    background-color: grey;
+    width: 100%;
+}
+    
+    
+    
+
 
 
     
