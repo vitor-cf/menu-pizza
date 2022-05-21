@@ -11,7 +11,9 @@ body {
     height: 80px; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 } 
-.text-logo {
+.text-logo { 
+    font-size: 20px;
+    font-weight: 700;
     color: rgb(0, 0, 0); 
 } 
 /* MENU */ 
@@ -25,29 +27,57 @@ body {
     color: rgb(255, 255, 255); 
     font-weight: 600;
 } 
-.link-menu{
+.link-menu{ 
+    
     text-decoration: none;
 }
-.item {
-    margin-left: 5px;
-    background-color: rgb(245, 0, 0); 
-    padding: 20px;  
-    border: 1px solid rgb(230, 230, 230); 
+.item-button {
     border-radius: 5px;
-}    
+    margin-left: 10px;
+} 
+.item-button-whats {
+    border-radius: 5px;
+    margin-left: 10px;
+} 
 
-.item:hover {
+.button-menu { 
+    color: white;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    padding: 20px;
+} 
+.button-menu-whats {
+    color: white;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(16, 233, 63);
+    padding: 20px; 
+}
+
+.button-menu:hover {
     background-color: rgb(212, 1, 1); 
     transform: translateY(-5px);
 } 
+.button-menu-whats:hover {
+    background-color: rgb(11, 161, 44); 
+    transform: translateY(-5px);
+}
 .titulo{  
     margin-left: 10px;
     margin-right: 10px;
     height: 30px;
     display: flex; 
     align-items: center;
-    margin-top: 10px; 
-    border-bottom: 3px solid rgb(255, 20, 20); 
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    border-bottom: 2px solid rgb(255, 20, 20); 
 } 
     
     
@@ -74,9 +104,16 @@ span {
     color: grey;
     font-weight: 500;
     margin-left: 10px; 
-    margin-top: 30px;
+    
+} 
+p {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-left: 10px; 
+    margin-top: 20px; 
 }
 img {
+    border-bottom: 1px solid rgb(214, 214, 214);
     background-color: grey;
     width: 100%;
 }
