@@ -130,21 +130,25 @@ img {
     
     .box-logo { 
         width: 100%;
-    } 
+    }   
         
     .button-menu { 
+        font-size: 20px;
         margin-top: 10px;
-        font-size: 10px;
+        font-size: 10px; 
     } 
+        
+        
     .button-menu-whats {  
         text-align: center;
         margin-top: 10px;
         font-size: 10px;
-        height: 85%;
+        height: 74%;
     }  
     .menu { 
-      width: 100%;  
-    }  
+        width: 100%;  
+      }  
+        
         
     .titulo {
         width: 30%; 
@@ -154,6 +158,7 @@ img {
         width: 100%;
     }
     .box { 
+        
         display: flex;
         width: 100%;
         flex-wrap: wrap; 
@@ -161,10 +166,11 @@ img {
     } 
         
     .box-pizza {  
+        
         display: flex; 
         flex-direction: column;
         align-items: flex-start; 
-        width: 80%; 
+        width: 44%; 
         height: 50%;
     } 
     p , span {
