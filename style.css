@@ -4,25 +4,33 @@ body {
 /* LOGO SPACE */ 
 .box-logo {
     width: 100%;
-    background-color: rgb(250, 250, 250); 
+    background-color: rgb(255, 255, 255); 
     display: flex;
     justify-content: center;  
     align-items: center;
-    height: 80px; 
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 80px;   
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    
 } 
 .text-logo { 
     font-size: 20px;
     font-weight: 700;
     color: rgb(0, 0, 0); 
 } 
-/* MENU */ 
-.menu {
-    background-color: rgb(252, 252, 252);
-    width: 100%;
-    display: flex;   
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+/* MENU */  
+
+.menu { 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-evenly; 
 } 
+    
+    
+    
+    
+    
+     
 .text-menu{
     color: rgb(255, 255, 255); 
     font-weight: 600;
@@ -69,7 +77,8 @@ body {
     background-color: rgb(11, 161, 44); 
     transform: translateY(-5px);
 }
-.titulo{  
+.titulo{   
+    width: 100%;
     margin-left: 10px;
     margin-right: 10px;
     height: 30px;
@@ -116,7 +125,62 @@ img {
     border-bottom: 1px solid rgb(214, 214, 214);
     background-color: grey;
     width: 100%;
+} 
+@media (max-width:472px) {
+    
+    .box-logo { 
+        width: 100%;
+    } 
+        
+    .button-menu { 
+        margin-top: 10px;
+        font-size: 10px;
+    } 
+    .button-menu-whats {  
+        text-align: center;
+        margin-top: 10px;
+        font-size: 10px;
+        height: 85%;
+    }  
+    .menu { 
+      width: 100%;  
+    }  
+        
+    .titulo {
+        width: 30%; 
+        
+    }  
+    img {
+        width: 100%;
+    }
+    .box { 
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap; 
+        justify-content: center;
+    } 
+        
+    .box-pizza {  
+        display: flex; 
+        flex-direction: column;
+        align-items: flex-start; 
+        width: 80%; 
+        height: 50%;
+    } 
+    p , span {
+        font-size: 15px; 
+        margin-left: 10px;
+        margin-bottom: 10px;
+    } 
+    
+    
 }
+        
+
+    
+    
+
+
     
     
     
